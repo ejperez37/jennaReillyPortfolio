@@ -13,6 +13,14 @@ section {
     min-height: 100vh;
 }
 
+button {
+    background-color: gray;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 10%;
+    color: #fff;
+}
+
 img {
     max-width: 300px;
     max-height: 300px;
