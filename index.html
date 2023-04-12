@@ -1,8 +1,5 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -13,24 +10,26 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
         <!-- Hero Text Section -->
-        <section class="hidden">
+        <section class="hidden block-center">
             <div class="heroText">
                 <h1>Jenna Reilly Videopgrahy</h1>
-                <p>Glad you could make it!</p>
+                <p>Glad you could make it! Scroll on please!</p>
             </div>
         </section>
-        <!-- Navbar scrolls to top and stays, logo appears in top left -->
+        <!-- brand appears at top left and follows you down the page -->
+        <div id="brand" class="hidden">
+            <h3>JR Productions</h3>
+        </div>
         <!-- Works Cat 1 Section(CLICK 4 MORE) -->
         <section class="hidden">
             <div class="worksCat1">
-                <h2>Name of Work Category</h2>
-                <p>Small description</p>
-                <button>Explore</button>
-                <div class="workCards">
+                <div class="block-left">
+                    <h2>Name of Work Category 1</h2>
+                    <p>Small description</p>
+                    <button>Explore</button>
+                </div>
+                <div class="workCards block-right">
                     <div class="workCard hidden">
                         <img src="https://source.unsplash.com/P2ZNA43V_ts" alt="placeholder image">
                     </div>
@@ -46,10 +45,12 @@
         <!-- Works Cat 2 Section(CLICK 4 MORE) -->
         <section class="hidden">
             <div class="worksCat2">
-                <h2>Name of Work Category</h2>
-                <p>Small description</p>
-                <button>Explore</button>
-                <div class="workCards">
+                <div class="block-left">
+                    <h2>Name of Work Category 2</h2>
+                    <p>Small description</p>
+                    <button>Explore</button>
+                </div>
+                <div class="workCards block-right">
                     <div class="workCard hidden">
                         <img src="https://source.unsplash.com/yGb2igKldYg" alt="placeholder image">
                     </div>
@@ -63,14 +64,15 @@
             </div>
         </section>
         <!-- About Me Section(CLICK 4 MORE) -->
-        <section class="hidden">
+        <section class="hidden block-center">
             <div class="aboutMe">
                 <h2>About Me</h2>
                 <p>Hey! I'm Jenna Reilly and I do cool things!!</p>
                 <button>Explore</button>
             </div>
+        </section>
         <!-- Contact Section(Bottom of landing page w/soc's & contact form)-->
-        <section class="hidden">
+        <section class="hidden block-center">
             <div class="contact">
                 <h2>Contact Me</h2>
                 <p>Pay me to do the cool things! Or check further content out on:</p>
