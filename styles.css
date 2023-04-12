@@ -62,7 +62,7 @@ h3 {
     justify-content: space-around;
 }
 
-.worksCat1, .worksCat2 {
+.worksCat1, .worksCat2, .aboutMe {
     display: flex;
     align-items: space-around;
     justify-content: space-around;
