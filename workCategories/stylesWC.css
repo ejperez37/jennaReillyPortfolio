@@ -1,0 +1,54 @@
+body {
+  background-color: #131316 !important;
+  color: #fff !important;
+  font-family: 'Space Grotesk', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .work-card {
+    position: relative;
+    overflow: hidden;
+    background-color: #000;
+  }
+  
+  .work-card img {
+    width: 100%;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+  
+  .work-card:hover img {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.work-card:nth-child(1) {
+  transition-delay: 100ms;
+}
+
+.work-card:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+.work-card:nth-child(3) {
+  transition-delay: 300ms;
+}
