@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;600&display=swap");
 
 body {
-    background-color: #131316 !important;
+    background-color: #212121 !important;
     color: #fff !important;
     font-family: "Space Grotesk", sans-serif;
     padding: 0;
@@ -29,10 +29,10 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  margin: 50px 0;
-  background-color: #2e2e33;
+  background-color: #323232;
   color: #fff;
-  opacity: 0.4;
+  opacity: 0.2;
+  z-index: 1;
     }
 
 #brand {
@@ -46,8 +46,7 @@ section {
     display: grid;
     grid-template-columns: repeat(autofit, minmax(min-content, 2fr));
     grid-template-rows: repeat(autofit, minmax(min-content, 1fr));
-    padding: 150px;
-    margin: 50px 0;
+    padding: 200px;
     }
 
 .workSection {
@@ -99,6 +98,10 @@ h2 {
     display: flex;
 
 } 
+
+.patterning {
+    background-color: #323232;
+}
     
 .workCard:nth-child(1) {
         transition-delay: 100ms;
